@@ -1,7 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import { css, Global } from '@emotion/react/macro';
 import { ErrorBoundary } from 'react-error-boundary';
-import { Transactions } from './Transactions';
 
 const ErrorFallback = ({ error }) => {
   return (
